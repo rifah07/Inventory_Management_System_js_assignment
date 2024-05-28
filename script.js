@@ -83,7 +83,7 @@ function renderProducts() {
         <td class="py-2 px-4 border-b text-center">${product.vendor}</td>
         <td class="py-2 px-4 border-b text-center">${product.category}</td>
         <td class="py-2 px-4 border-b text-center">
-          <button class="bg-blue-500 text-white px-2 py-1 rounded" onclick="editProduct(${index})">Edit</button>
+          <button class="bg-green-500 text-white px-2 py-1 rounded" onclick="editProduct(${index})">Edit</button>
           <button class="bg-red-500 text-white px-2 py-1 rounded" onclick="deleteProduct(${index})">Delete</button>
         </td>
       `;
